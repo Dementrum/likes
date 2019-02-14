@@ -7,6 +7,11 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+	<?php
+		require "db_connection.php";
+		
+		$userId = 5;
+	?>
 	<div class="row">
 		<div class="col-6">
 			<div class="card">
